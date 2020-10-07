@@ -1,0 +1,79 @@
+html {
+  color: #333333;
+}
+.appHeader{
+  font-size: 24px;
+  text-align: center;
+  background-color: #0083CA;
+  color: #FFFFFF;
+}
+.app-title{
+  font-size: 16px;
+  text-align: center;
+  background-color: #EEEEEE;
+  color: #0083CA;
+}
+.button-bar {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  justify-content: space-around;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+#body {
+  background: #F9F9F9;
+  height: 300px;
+  width: 200px;
+}
+#clips {
+  min-height: 88px;
+}
+.clip{
+  width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 12px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+}
+
+.clip:hover {
+  background-color:#e5f2f9;
+  cursor: pointer;
+}
+.link_bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.link_icon {
+  color: #333333;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+.link_icon:hover {
+  cursor: pointer;
+  background-color:#e5f2f9;
+}
+
+.the_link {
+  text-decoration: none;
+  color:  inherit;
+}
+
+.textarea{
+  min-width: 200px;
+  max-width: 200px;
+  max-height: 110px;
+  min-height: 46px;
+}
+
+.btn-small{
+  width: 75px;
+}

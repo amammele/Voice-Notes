@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Voice ToolBox</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="assets/vendor/materialize.min.css" rel="stylesheet"></link>
+  <link href="popup.css" rel="stylesheet"></link>
+</head>
+<body id="body">
+    <div class="appHeader">Voice ToolBox</div>
+  <div id="home_menu">
+  </div>
+    <div class="app">
+      <div class="button-bar">
+        <button id="start" class="waves-effect waves-light btn-small blue activation-button">START</button>
+        <button id="stop" class="waves-effect waves-light btn-small blue deactivation-button">STOP</button>
+      </div>
+      <div class="button-bar">
+          <button id="copy" class="waves-effect waves-light btn-small blue copy-button">COPY</button>
+        <button id="clear" class="waves-effect waves-light btn-small blue clear-button">CLEAR</button>
+      </div>
+    </div>
+    <div class="app">
+      <div class="app-title">Preview
+      </div>
+      <textarea class="textarea" id="VoiceTextBox"></textarea>
+    </div>
+    <div class="app">
+        <div class="app-title">Clipboard</div>
+        <div id="clips">
+        </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+  <script type="text/javascript" src="assets/vendor/materialize.min.js"></script>
+</body>
+</html>

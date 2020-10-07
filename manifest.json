@@ -1,0 +1,26 @@
+
+{
+  "manifest_version": 2,
+  "name": "Voice ToolBox",
+  "description": "Voice ToolBox",
+  "version": "4",
+  "author": "A-Z",
+  "short_name": "Voice ToolBox",
+  "browser_action": {
+    "default_title": "Voice ToolBox",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": { "32": "toolBox.png"},
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["<all_urls>"],
+    "all_frames": true
+  }]
+}
